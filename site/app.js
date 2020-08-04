@@ -52,11 +52,11 @@ app.get('/info', function(req, res) {
   if (CURRENTMODE == MODE.TEST) {
     patientdata = {
       "personal": {
-        "name": "Ralph DAlmeida",
-        "age": 38,
+        "name": "Andrii Vasylchenko",
+        "age": 31,
         "gender": "male",
         "street": "34 Main Street",
-        "city": "Toronto",
+        "city": "Morrisville",
         "zipcode": "M5H 1T1"
       },
       "medications": ["Metoprolol", "ACE inhibitors", "Vitamin D"],
